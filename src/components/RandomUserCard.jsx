@@ -202,14 +202,22 @@ function RandomUserCard() {
 
               <hr className="h-px bg-gray-200 border-0 dark:bg-black opacity-10" />
               <div className="flex justify-center py-1">
-                <button className="flex gap-1 p-2 items-center">
+                <a
+                  target="_blank"
+                  href={`https://maps.google.com/?q=${userData?.location?.coordinates?.latitude},${userData?.location?.coordinates?.longitude}`}
+                  className="flex gap-1 p-2 items-center"
+                >
                   <img src={location} alt="" />
                   <span className="text-xs">Location</span>
-                </button>
-                <button className="flex gap-1 p-2 items-center">
+                </a>
+                <a
+                  className="flex gap-1 p-2 items-center"
+                  href={`tel: ${userData?.phone}`}
+                  target="_blank"
+                >
                   <img src={callMe} alt="" />
                   <span className="text-xs">Call Me</span>
-                </button>
+                </a>
               </div>
               <hr className="h-px bg-gray-200 border-0 dark:bg-black opacity-10" />
 
