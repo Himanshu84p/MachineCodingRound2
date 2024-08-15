@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Donegal+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 .card {
   background-color: #b6b3f3;
   width: 358px;
@@ -27,4 +30,17 @@ p {
 
 h3 {
   color: #373649;
+}
+
+/* twitter jokes css ************************************************** */
+
+.twitter_card {
+  width: 534px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 12px;
+}
+
+.twitter_username,
+.time_text {
+  color: #a0a0a0;
 }

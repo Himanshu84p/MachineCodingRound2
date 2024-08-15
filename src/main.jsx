@@ -9,12 +9,14 @@ import {
   Route,
   RouterProvider,
 } from "react-router-dom";
+import Twitter from "./pages/Twitter.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route path="" element={<RandomUser />} />
       <Route path="random-user" element={<RandomUser />} />
+      <Route path="random-jokes" element={<Twitter />} />
     </Route>
   )
 );
