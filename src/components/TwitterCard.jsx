@@ -54,8 +54,15 @@ function TwitterCard() {
 
           <div className="time_section pt-4">
             <p className="time_text text-xs">
-              11:18 PM · Jul 30, 2024 ·{" "}
-              <span className="text-white font-semibold">20.5M</span> Views
+              {Math.floor(Math.random() * 12 + 1)}:
+              {Math.floor(Math.random() * 59 + 1)} PM · Jul{" "}
+              {Math.floor(Math.random() * 30 + 1)}, 20
+              {Math.floor(Math.random() * 14 + 10)} ·{" "}
+              <span className="text-white font-semibold">
+                {Math.floor(Math.random() * 10 + 1)}.
+                {Math.floor(Math.random() * 10 + 1)}M
+              </span>{" "}
+              Views
             </p>
           </div>
 
